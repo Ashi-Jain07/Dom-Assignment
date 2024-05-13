@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Student Registration System</title>
+</head>
+<body>
+    <header>
+        <h1 id="head">Student Registration System</h1>
+        <p class="head-para">Student Registration System is a comprehensive system designed to simplify the enrollment process for educational institutions</p>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="first-div">
+                <h2 class="div-head"><em>Welcome to the Student <br/>Registration System</em></h2>
+            </div>
+
+            <div class="second-div">
+
+                <h2 class="form-head">Register Here!</h2>
+
+                <form id="registrationform" class="form">
+                    <label for="studentName" id="label1">Student Name:</label><br/>
+                    <input type="text" id="studentname" name="studentName" class="input-field input1" required><br/>
+
+                    <label for="studentid" id="label2">Student-Id:</label><br/>
+                    <input type="number" id="studentid" name="studentid" class="input-field input2" required><br/>
+
+                    <label for="class" id="label3">Class:</label><br/>
+                    <input type="number" id="class" name="class" class="input-field input3" required><br/>
+
+                    <label for="email" id="label4">Email-Id</label><br/>
+                    <input type="email" id="email" name="email" class="input-field input4" required><br/>
+
+                    <label for="phoneno" id="label5">Contact No.</label><br/>
+                    <input type="number" id="phoneno" name="phoneno" class="input-field input5" required><br/>
+
+                    <input type="submit" value="submit" class="BTN input6">
+                    <input type="reset" value="cancel" class="BTN input7" >
+                </form>
+            
+                <p id="registered-student-link"><a href="index2.html" target="_blank">Already Registered Student</a></p>
+
+            </div>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
